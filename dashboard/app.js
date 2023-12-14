@@ -207,7 +207,7 @@ buttonPopin.addEventListener('click', () => {
         body.classList.remove('help-three');
     }
 
-    popin.style.boxShadow = '0 0 0 40vw rgba(0,0,0,0.5)';
+    popin.style.boxShadow = '0 0 0 100vw rgba(0,0,0,0.5)';
 });
 
 
