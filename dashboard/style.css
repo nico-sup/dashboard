@@ -66,13 +66,13 @@ input[type="search"] {
     background-color: white;
     border-radius: 20px;
     z-index: 20;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 5%;
     gap: 30px;
     transition: all 0.3s ease;
+    display:none;
 }
 
 .popin p {
@@ -575,6 +575,10 @@ header {
 
     .mobile-nav {
         display: none;
+    }
+
+    .popin {
+        display: flex;
     }
     
 }
