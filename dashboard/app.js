@@ -183,7 +183,7 @@ buttonPopin.addEventListener('click', () => {
 
     if (clickCount === 1) {
         body.classList.add('help-one');
-        firstP.textContent = "Vous pouvez modifier l'affiche de la navigation au click sur les boutons";
+        firstP.textContent = "Vous pouvez modifier l'affichage de la navigation au click sur les boutons";
         popin.style.top = '27%';
         popin.style.left = '42%';
         popin.style.boxShadow = '0 0 0 40vw rgba(0,0,0,0.5)';
